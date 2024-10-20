@@ -1,0 +1,29 @@
+.segmented-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.segmented-image-container h2 {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 24, 241, 1) 0%,
+    rgba(169, 64, 132, 1) 56%,
+    rgba(28, 19, 178, 1) 100%
+  );
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  font-size: xx-large;
+  width: 22rem;
+  text-align: center;
+}
+
+.segmented-image-container img {
+  max-width: 30%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

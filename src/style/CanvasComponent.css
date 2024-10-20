@@ -1,0 +1,71 @@
+.canvas-card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 1rem;
+  z-index: 1000;
+  padding-top: 3rem;
+}
+
+.undo-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #1769a0; /* Blue background */
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px; /* Slightly rounded corners */
+}
+
+.undo-button:hover {
+  background: #5dade2; /* Darker blue on hover */
+}
+
+.canvas-container {
+  overflow: auto; /* Enable scrolling */
+  max-width: 90vw;
+  max-height: 80vh;
+  position: relative; /* Contain dots */
+}
+
+.image-canvas {
+  display: block; /* Remove inline spacing */
+  border: 2px solid #fff;
+  cursor: crosshair;
+  /* min-width: 90vw; */
+  /* min-height: 90vh; */
+}
+
+.dot {
+  position: absolute;
+  /* width: 10px; */
+  /* height: 10px; */
+  /* border-radius: 9%; */
+  pointer-events: none;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ff4757;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 45%;
+  font-weight: bold;
+}
+
+.close-button:hover {
+  background: #ff6b81;
+}

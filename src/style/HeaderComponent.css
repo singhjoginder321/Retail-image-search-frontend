@@ -1,0 +1,38 @@
+/* Header Styling */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 24, 241, 1) 0%,
+    rgba(169, 64, 132, 1) 56%,
+    rgba(28, 19, 178, 1) 100%
+  );
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 95%;
+}
+
+.app-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.signout-button {
+  padding: 10px 20px;
+  background-color: #ff4757;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signout-button:hover {
+  background-color: #ff6b81;
+}

@@ -1,0 +1,19 @@
+.model-run-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.run-model-button {
+  padding: 15px 30px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.run-model-button:hover {
+  background-color: #218838;
+}
